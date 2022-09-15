@@ -12,6 +12,3 @@ for (var i = 0; i < listaFilmes.length; i++) {
 document.write("<img src=" + listaFilmes[i] + ">");
 }
 
-//var listaFilmes = ['Yesterday', 'A chegada', 'Escola de Rock'];
-//document.write("<img src=" + listaFilmes[i] + ">");}
-
