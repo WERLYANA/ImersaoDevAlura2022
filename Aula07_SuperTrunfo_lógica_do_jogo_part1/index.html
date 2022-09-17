@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 07</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="src/imagens/super-trunfo-logo.png"
+            class="page-logo" alt="">
+            <br>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <div class="classeSorteado">
+            <div id="sorteado"></div>
+            <div id="ataque"></div> 
+            <div id="defesa"></div> 
+            <div id="poder"></div> 
+        </div>
+
+        <form id="form">
+            <h2>Escolha abaixo seu atributo:</h2>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+            <div class="classeSorteadoMaquina">
+                <div id="sorteadoMaquina"></div>
+                <div id="ataqueMaquina"></div> 
+                <div id="defesaMaquina"></div> 
+                <div id="poderMaquina"></div> 
+            </div>
+            <div id="resultado"></div>
+        </form>
+
+        <button type="button" id="refresh" disabled="true">Jogar denovo</button>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
